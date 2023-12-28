@@ -1,0 +1,140 @@
+header {
+  margin-top: 0px;
+  background-image: url("/src/assets/hero-section.svg");
+  // background-position: 25% 75%;
+  background-position: right 0;
+  height: 900px;
+  object-fit: cover;
+
+  .heading {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 200px;
+    img {
+     max-width: 300px;
+    }
+  }
+
+  .button {
+    padding-left: 20px;
+    margin-top: 30px;
+
+    .btn-acara {
+      border-radius: 100px;
+      background: #ffc73c;
+      color: white;
+      box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+
+      &:hover {
+        background: #eeb012;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(xs) {
+    
+  }
+  
+
+  @include media-breakpoint-up(sm) {
+    margin-top: -50px;
+    background-image: url("/src/assets/hero-section.svg");
+    // background-position: 25% 75%;
+    background-position: right 0;
+    height: 900px;
+    object-fit: cover;
+    .heading {
+      padding-left: 40px;
+      padding-right: 40px;
+
+      // margin-top: 200px;
+      img {
+        max-width: 400px;
+      }
+    }
+
+    .button {
+      padding-left: 40px;
+      margin-top: 30px;
+
+      .btn-acara {
+        border-radius: 100px;
+        background: #eeb012;
+        color: white;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+
+        &:hover {
+          background: #eeb012;
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: -50px;
+    background-image: url("/src/assets/hero-section.svg");
+    // background-position: 25% 75%;
+    background-position: right 0;
+    height: 900px;
+    object-fit: cover;
+    .heading {
+      padding-left: 40px;
+      padding-right: 40px;
+
+      margin-top: 200px;
+      img {
+        max-width: 400px;
+      }
+    }
+
+    .button {
+      padding-left: 40px;
+      margin-top: 30px;
+
+      .btn-acara {
+        border-radius: 100px;
+        background: #eeb012;
+        color: white;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+
+        &:hover {
+          background: #eeb012;
+        }
+      }
+    }
+  }
+  
+  @include media-breakpoint-up(xl) {
+    margin-top: -100px !important;
+    background-image: url("/src/assets/hero-section.svg");
+    //     padding: 180px 0 165px;
+    height: 900px;
+    background-size: cover;
+
+    .heading {
+      padding-left: 150px;
+      padding-top: 100px;
+
+      img {
+        max-width: 500px;
+      }
+    }
+
+    .button {
+      padding-left: 150px;
+      padding-top: 70px;
+
+      .btn-acara {
+        border-radius: 100px;
+        background: #ffc73c;
+        color: white;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+
+        &:hover {
+          background: #eeb012;
+        }
+      }
+    }
+  }
+}

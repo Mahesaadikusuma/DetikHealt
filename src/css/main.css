@@ -1,0 +1,192 @@
+.navbar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  margin-top: 60px !important;
+  border-radius: 32px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.navbar .toggle {
+  cursor: pointer !important;
+}
+.navbar .navbar-nav .navbar-brand img {
+  width: 35px;
+}
+.navbar .navbar-nav .nav-item {
+  margin-left: 0px;
+  margin-right: 0;
+}
+.navbar .navbar-nav .nav-item:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #212427;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-item .register {
+  background: var(--primary-gradient, linear-gradient(258deg, #59ffb9 0%, #326cff 100%));
+}
+.navbar .navbar-nav .nav-item .register:hover {
+  background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+}
+@media (max-width: 1199.98px) {
+  .navbar .navbar-nav .nav-item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar .navbar-nav .nav-item:hover {
+    background-color: white;
+    border-radius: 20px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #212427;
+    font-weight: 500;
+  }
+  .navbar .navbar-nav .nav-item .register {
+    background: var(--primary-gradient, linear-gradient(258deg, #59ffb9 0%, #326cff 100%));
+  }
+  .navbar .navbar-nav .nav-item .register:hover {
+    background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+  }
+}
+@media (min-width: 1200px) {
+  .navbar .navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar .navbar-nav .nav-item:hover {
+    background-color: white;
+    border-radius: 20px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #212427;
+    font-weight: 500;
+  }
+  .navbar .navbar-nav .nav-item .register {
+    background: var(--primary-gradient, linear-gradient(258deg, #59ffb9 0%, #326cff 100%));
+  }
+  .navbar .navbar-nav .nav-item .register:hover {
+    background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+  }
+}
+
+header {
+  margin-top: 0px;
+  background-image: url("/src/assets/hero-section.svg");
+  background-position: right 0;
+  height: 900px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header .heading {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 200px;
+}
+header .heading img {
+  max-width: 300px;
+}
+header .button {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+header .button .btn-acara {
+  border-radius: 100px;
+  background: #ffc73c;
+  color: white;
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+}
+header .button .btn-acara:hover {
+  background: #eeb012;
+}
+@media (min-width: 576px) {
+  header {
+    margin-top: -50px;
+    background-image: url("/src/assets/hero-section.svg");
+    background-position: right 0;
+    height: 900px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  header .heading {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  header .heading img {
+    max-width: 400px;
+  }
+  header .button {
+    padding-left: 40px;
+    margin-top: 30px;
+  }
+  header .button .btn-acara {
+    border-radius: 100px;
+    background: #eeb012;
+    color: white;
+    box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  }
+  header .button .btn-acara:hover {
+    background: #eeb012;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    margin-top: -50px;
+    background-image: url("/src/assets/hero-section.svg");
+    background-position: right 0;
+    height: 900px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  header .heading {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 200px;
+  }
+  header .heading img {
+    max-width: 400px;
+  }
+  header .button {
+    padding-left: 40px;
+    margin-top: 30px;
+  }
+  header .button .btn-acara {
+    border-radius: 100px;
+    background: #eeb012;
+    color: white;
+    box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  }
+  header .button .btn-acara:hover {
+    background: #eeb012;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    margin-top: -100px !important;
+    background-image: url("/src/assets/hero-section.svg");
+    height: 900px;
+    background-size: cover;
+  }
+  header .heading {
+    padding-left: 150px;
+    padding-top: 100px;
+  }
+  header .heading img {
+    max-width: 500px;
+  }
+  header .button {
+    padding-left: 150px;
+    padding-top: 70px;
+  }
+  header .button .btn-acara {
+    border-radius: 100px;
+    background: #ffc73c;
+    color: white;
+    box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  }
+  header .button .btn-acara:hover {
+    background: #eeb012;
+  }
+}/*# sourceMappingURL=main.css.map */
