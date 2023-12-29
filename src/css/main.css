@@ -75,7 +75,8 @@
 header {
   margin-top: 0px;
   background-image: url("/src/assets/hero-section.svg");
-  background-position: right 0;
+  background-repeat: no-repeat;
+  background-position: 85% 15%;
   height: 900px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -321,7 +322,7 @@ header .button .btn-acara:hover {
   border-radius: 20px;
 }
 #artikel .tab-content {
-  margin-top: 50px;
+  margin-top: 55px;
 }
 #artikel .tab-content .card {
   border-radius: 32px;
