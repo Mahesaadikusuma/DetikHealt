@@ -80,7 +80,7 @@
         </div>
 
         <div class="collapse navbar-collapse d-none d-lg-block" id="nav-menu">
-          <ul class="navbar-nav align-items-lg-center ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav align-items-lg-center ms-auto gap-2 gap-lg-0">
             <li class="nav-item rounded-pill px-4 py-0">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -97,9 +97,9 @@
               <a class="nav-link" href="#artikel">Berita</a>
             </li>
 
-            <li class="nav-item">
+            <li class="btn-register rounded-pill">
               <a
-                class="register btn rounded border-0 px-2 px-lg-4 text-white"
+                class="register  btn  border-0 px-4 px-lg-4 text-white"
                 href="https://event.detik.com/"
                 >Registrasi</a
               >
@@ -1413,7 +1413,7 @@
     <section id="footer">
       <footer>
         <div class="container-fluid">
-          <div class="logo">
+          <div class="logo text-center">
             <img src="./src/assets/footer/logo.svg" alt="">
           </div>
 
@@ -1472,13 +1472,26 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 10,
         loop: true,
         autoplay: {
           delay: 1500,
           disableOnInteraction: false,
         },
+        breakpoints: {
+          720: {
+            slidesPerView: 3,
+        spaceBetween: 10,
+          },
+
+          1100: {
+            slidesPerView: 4,
+        spaceBetween: 10,
+          }
+
+        }
+        
       });
     </script>
 

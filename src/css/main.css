@@ -26,10 +26,10 @@
   color: #212427;
   font-weight: 500;
 }
-.navbar .navbar-nav .nav-item .register {
+.navbar .navbar-nav .btn-register {
   background: var(--primary-gradient, linear-gradient(258deg, #59ffb9 0%, #326cff 100%));
 }
-.navbar .navbar-nav .nav-item .register:hover {
+.navbar .navbar-nav .btn-register:hover {
   background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
 }
 @media (max-width: 1199.98px) {
@@ -500,7 +500,7 @@ header .button .btn-acara:hover {
 }
 #footer .sosial {
   color: #fff;
-  text-align: justify;
+  text-align: center;
   font-family: "Montserrat";
   font-size: 16px;
 }

@@ -30,19 +30,21 @@
         color: #212427;
         font-weight: 500;
       }
-      .register {
-        //    margin-right: 20px;
+      
+    }
+
+    .btn-register {
+      //    margin-right: 20px;
+      background: var(
+        --primary-gradient,
+        linear-gradient(258deg, #59ffb9 0%, #326cff 100%)
+      );
+
+      &:hover {
         background: var(
           --primary-gradient,
-          linear-gradient(258deg, #59ffb9 0%, #326cff 100%)
+          linear-gradient(258deg, #326cff 0%, #59ffb9 100%)
         );
-
-        &:hover {
-          background: var(
-            --primary-gradient,
-            linear-gradient(258deg, #326cff 0%, #59ffb9 100%)
-          );
-        }
       }
     }
   }
