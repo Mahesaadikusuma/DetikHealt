@@ -75,7 +75,7 @@
 
 header {
   margin-top: 0px;
-  background-image: url("../../assets/hero-section.svg");
+  background-image: url("/src/assets/hero-section.svg");
   background-repeat: no-repeat;
   background-position: 85% 15%;
   height: 900px;
